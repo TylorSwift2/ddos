@@ -8,5 +8,10 @@ git clone https://github.com/luisBatis/ddos.git
 ```
 2 passo:
 ```bash
-pip3 install -s requirements.txt
+pip3 install -r requirements.txt
 ```
+3 passo:
+```bash
+python3 ddos.py
+```
+lembrado que os dev nao tem nenhuma resposabilidade com oq vc vai fazer obs: caso o usario ataque algum site sem permisao do dono ele esta resposavel.
