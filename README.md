@@ -6,3 +6,7 @@ Compatível com qualquer sistema operacional que suporte Python 3
 ```bash
 git clone https://github.com/luisBatis/ddos.git
 ```
+2 passo:
+```bash
+pip3 install -s requirements.txt
+```
