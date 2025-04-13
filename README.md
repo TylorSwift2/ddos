@@ -4,7 +4,7 @@ Envia até 1000 requisições por segundo
 Suporta todas as portas (1-65535)  
 Compatível com qualquer sistema operacional que suporte Python 3  
 ```bash
-git clone https://github.com/luisBatis/ddos.git
+git clone github.com/luisBatis/ddos
 ```
 2 passo:
 ```bash
