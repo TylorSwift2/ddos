@@ -1,7 +1,7 @@
 
-#DDoS (Distributed Denial of Service)
+# DDoS (Distributed Denial of Service)
 
-#$Descrição
+## Descrição
 Um DDoS é um tipo de ataque cibernético que visa sobrecarregar um sistema ou rede com tráfego excessivo, tornando-o indisponível.
 
 #Características
