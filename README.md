@@ -30,4 +30,3 @@ python3 ddos.py
 - Os desenvolvedores não têm responsabilidade pelo uso indevido do projeto.
 - O usuário é responsável por obter permissão do proprietário do site antes de realizar qualquer teste.
 
-O que você acha? Quer adicionar ou mudar algo?
