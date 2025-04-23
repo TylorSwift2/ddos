@@ -14,8 +14,10 @@ Um DDoS é um tipo de ataque cibernético que visa sobrecarregar um sistema ou r
 ```
 bash
 git clone https://github.com/TylorSwift2/ddos.git
-## 2. Instale as dependências:
+
+
 ```
+
 bash
 pip3 install -r requirements.txt
 ```
