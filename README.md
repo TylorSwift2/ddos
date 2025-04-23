@@ -1,16 +1,17 @@
 
 # DDoS (Distributed Denial of Service)
 
-## Descrição
-Um DDoS é um tipo de ataque cibernético que visa sobrecarregar um sistema ou rede com tráfego excessivo, tornando-o indisponível.
+## Description
+A DDoS is a type of cyber attack that aims to overload a system or network with excessive traffic, making it unavailable.
 
-# Características
-- Envia até 1000 requisições por segundo
-- Suporta todas as portas (1-65535)
-- Compatível com qualquer sistema operacional que suporte Python 3
+# Features
+- Sends up to 1000 requests per second
+- Supports all ports (1-65535)
+- Compatible with any operating system that supports Python 3
 
-## Instalação
-1. Clone o repositório:
+
+## Installation
+1. Clone or repository:
 ```
 bash
 git clone https://github.com/TylorSwift2/ddos.git
@@ -21,13 +22,12 @@ git clone https://github.com/TylorSwift2/ddos.git
 bash
 pip3 install -r requirements.txt
 ```
-3. Execute o script:
+3. Run the script:
 ```
 bash
 python3 ddos.py
 ```
 
-# Importante
-- Os desenvolvedores não têm responsabilidade pelo uso indevido do projeto.
-- O usuário é responsável por obter permissão do proprietário do site antes de realizar qualquer teste.
-
+# Important
+- The developers are not responsible for any misuse of the project.
+- The user is responsible for obtaining permission from the website owner before performing any testing.
