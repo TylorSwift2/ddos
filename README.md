@@ -13,7 +13,7 @@ Um DDoS é um tipo de ataque cibernético que visa sobrecarregar um sistema ou r
 1. Clone o repositório:
 ```
 bash
-git clone github.com/TylorSwift2/ddos.git
+git clone HTTPS://github.com/TylorSwift2/ddos.git
 ```
 ## 2. Instale as dependências:
 ```
