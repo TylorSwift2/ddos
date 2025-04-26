@@ -58,6 +58,7 @@ ddos/
 ├── config.json           # Configuration file for attack test parameters
 ├── modules/              # Contains helper modules
 │   ├── https/            # HTTPS attack logic
+│   ├── ddos_core/        # ddos core
 │   ├── config/           # config json
 │   ├── ip_atack/         # IP attack logic
 │   ├── generate_random_ip/ # Random IP generator
