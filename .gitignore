@@ -1,0 +1,6 @@
+__pycache__/
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/TylorSwift2/ddos.git
+git push -u origin main
