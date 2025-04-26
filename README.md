@@ -24,7 +24,7 @@ Follow these steps to set up and run the project:
    pip3 install -r requirements.txt
    ```
 
-3. **Configure the Attack**:
+3. **Configure the test Attack**:
    Edit the `config.json` file to set the number of IPs, port, and packet quantity:
    ```json
    {
@@ -58,6 +58,7 @@ ddos/
 ├── config.json           # Configuration file for attack test parameters
 ├── modules/              # Contains helper modules
 │   ├── https/            # HTTPS attack logic
+│   ├── config/           # config json
 │   ├── ip_atack/         # IP attack logic
 │   ├── generate_random_ip/ # Random IP generator
 │   ├── validar_porta/    # Port validation
