@@ -2,6 +2,7 @@ import sys
 import os  
 from colorama import Fore, init  # For terminal colors
 from urllib.parse import urlparse  # To analyze URLs
+"""testes.py - Testes para o módulo de ataque DDoS"""
 from io import StringIO  # Para simular entrada do usuário
 import unittest  
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
