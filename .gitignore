@@ -1,7 +1,10 @@
 __pycache__/
 venv/
 git init
+<<<<<<< HEAD
 git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/TylorSwift2/ddos.git
 git push -u origin main
+=======
+>>>>>>> d2d9b56 (PROJECT REVONAVT)
