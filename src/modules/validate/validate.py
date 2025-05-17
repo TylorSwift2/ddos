@@ -1,5 +1,5 @@
 class validate:
-    @staticmethod
+    
     def validate_port(self, porta):
         """
         Function to validate the target port.
