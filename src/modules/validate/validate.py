@@ -1,4 +1,4 @@
-class Validate:
+class validate:
     @staticmethod
     def validate_port(porta):
         """
