@@ -66,6 +66,13 @@ ddos/
 ├── report/               # Logs and reports
 └── README.md             # Project documentation
 ```
-
+## 📂 learn more about the files
+[config](./doc/config.md)
+[controler](./doc/controler.md)
+[https](./doc/https.md)
+[ip_atack](./doc/ip_atack.md)
+[validade](./doc/validade.md)
+[generade_random_ip](./doc/genegarde_random_ip.md)
+[core](./doc/core.md)
 ## 🛡️ Disclaimer
 This project is for **educational purposes only**. Unauthorized use of this tool to attack systems without permission is illegal and unethical. Use responsibly.
