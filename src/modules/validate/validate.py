@@ -1,36 +1,40 @@
-class validate:
-    @staticmethod
-    def validate_port(porta):
-        """
-        Function to validate the target port.
+class Validate:
+    """
+    Provides static validation methods for input parameters such as port number and quantity.
+    """
 
-        Parameter:
-            porta (int): Port number.
+    @staticmethod
+    def validate_port(port):
+        """
+        Validates the given port number.
+
+        Args:
+            port (int): The port number to validate.
 
         Returns:
-            porta (int): Validated port.
+            int: The validated port number.
 
-        Exceptions:
-            Raises an error if the port is outside the valid range (1 to 65535).
+        Raises:
+            ValueError: If the port number is outside the valid range (1-65535).
         """
-        if porta < 1 or porta > 65535:
+        if port < 1 or port > 65535:
             raise ValueError("Invalid port. Enter a value between 1 and 65535.")
-        return porta
+        return port
 
     @staticmethod
-    def validate_quantity(quantidade):
+    def validate_quantity(quantity):
         """
-        Function to validate the number of packets.
+        Validates the number of packets to send.
 
-        Parameter:
-            quantidade (int): Number of packets to be sent.
+        Args:
+            quantity (int): The number of packets to validate.
 
         Returns:
-            quantidade (int): Validated quantity.
+            int: The validated quantity.
 
-        Exceptions:
-            Raises an error if the quantity is negative.
+        Raises:
+            ValueError: If the quantity is negative.
         """
-        if quantidade < 0:
+        if quantity < 0:
             raise ValueError("Quantity cannot be negative.")
-        return quantidade
+        return quantity

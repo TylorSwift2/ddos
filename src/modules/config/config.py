@@ -1,24 +1,33 @@
-from json import load  # To manipulate JSON files
-import os  # To handle file paths
+import os
+import json
+import asyncio
 
 class ConfigLoader:
     """
-    Handles loading configuration from the config.json file.
+    Async loader for configuration from JSON files.
+    Supports multiple config profiles (like 'test', 'prod', etc.).
     """
 
     @staticmethod
-    def load_config():
+    async def load_config(profile="default"):
         """
-        Reads settings from the config.json file and returns the required values.
+        Asynchronously reads settings from config.json and returns values.
+        
+        Args:
+            profile (str): Optional config profile.
+
         Returns:
             tuple: door (int), quantity_ips (int), quantity_packages (int)
         """
-        # Build the path to the config.json file by going up two directories
         config_path = os.path.join(os.path.dirname(__file__), '..', '..', 'config.json')
 
-        # Open and load the JSON file
+        # Load file asynchronously
+        loop = asyncio.get_event_loop()
         with open(config_path, 'r') as config_file:
-            config = load(config_file)
+            raw_data = await loop.run_in_executor(None, config_file.read)
 
-        # Return the required configuration values
-        return config["door"], config["quantity_ips"], config["quantity_packages"]
+        config = json.loads(raw_data)
+
+        # Load profile or default values
+        cfg = config.get(profile, config)
+        return cfg["door"], cfg["quantity_ips"], cfg["quantity_packages"]
